@@ -9,6 +9,7 @@ namespace Courier.Shipping.Models
             Parcels = new List<Parcel>();
         }
         public IList<Parcel> Parcels { get; set; }
+        public decimal SpeedyDeliveryCharge { get; set; }
         public decimal GrandTotal { get; set; }
     }
 }
