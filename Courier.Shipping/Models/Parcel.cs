@@ -9,5 +9,6 @@ namespace Courier.Shipping.Models
         public int Weight { get; set; }
         public decimal ExtraWeightCharge { get; set; }
         public decimal UnitCost { get; set; }
+        public bool IsFree { get; set; }
     }
 }
