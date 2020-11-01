@@ -19,7 +19,9 @@ namespace Courier.Shipping.Tests.MockRepositories
                         From = 0,
                         To = 9
                     },
-                    Cost = 3
+                    Cost = 3,
+                    MaxWeight = 1,
+                    ChargePerExtraWeight = 2
                 },
                 new ParcelTypeSetting() 
                 {
@@ -28,7 +30,9 @@ namespace Courier.Shipping.Tests.MockRepositories
                         From = 10,
                         To = 49
                     },
-                    Cost = 8
+                    Cost = 8,
+                    MaxWeight = 3,
+                    ChargePerExtraWeight = 2
                 },
                 new ParcelTypeSetting()
                 {
@@ -37,7 +41,9 @@ namespace Courier.Shipping.Tests.MockRepositories
                         From = 50,
                         To = 99
                     },
-                    Cost = 15
+                    Cost = 15,
+                    MaxWeight = 6,
+                    ChargePerExtraWeight = 2
                 },
                 new ParcelTypeSetting()
                 {
@@ -46,7 +52,9 @@ namespace Courier.Shipping.Tests.MockRepositories
                         From = 100,
                         To = Int32.MaxValue
                     },
-                    Cost = 25
+                    Cost = 25,
+                    MaxWeight = 10,
+                    ChargePerExtraWeight = 2
                 }
             };
         }

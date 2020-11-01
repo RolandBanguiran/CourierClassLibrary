@@ -27,5 +27,11 @@ namespace Courier.Shipping.Services
 
             return parcelSettings.Where(a => maxDimensionSize >= a.Range.From && maxDimensionSize < a.Range.To).FirstOrDefault();
         }
+
+        public ParcelTypeSetting GetParcelTypeSetting(ParcelType parcelType)
+        {
+            var parcelSettings = _parcelTypeSettingsRepository.GetList();
+            return parcelSettings.Where(a => a.Type == parcelType).FirstOrDefault();
+        }
     }
 }

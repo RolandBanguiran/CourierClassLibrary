@@ -1,4 +1,5 @@
-﻿using Courier.Shipping.Models;
+﻿using Courier.Shipping.Enums;
+using Courier.Shipping.Models;
 
 namespace Courier.Shipping.Services
 {
@@ -6,5 +7,6 @@ namespace Courier.Shipping.Services
     {
         int GetMaxDimensionSize(Dimension dimension);
         ParcelTypeSetting GetParcelTypeSetting(Dimension dimension);
+        ParcelTypeSetting GetParcelTypeSetting(ParcelType parcelType);
     }
 }
