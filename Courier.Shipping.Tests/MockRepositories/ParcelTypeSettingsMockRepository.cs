@@ -55,6 +55,14 @@ namespace Courier.Shipping.Tests.MockRepositories
                     Cost = 25,
                     MaxWeight = 10,
                     ChargePerExtraWeight = 2
+                },
+                new ParcelTypeSetting()
+                {
+                    Type = ParcelType.HeavyParcel,
+                    Range = null,
+                    Cost = 50,
+                    MaxWeight = 50,
+                    ChargePerExtraWeight = 1
                 }
             };
         }

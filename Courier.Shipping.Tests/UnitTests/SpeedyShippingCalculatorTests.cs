@@ -5,7 +5,7 @@ using Courier.Shipping.Tests.MockRepositories;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 
-namespace Cuorier.Shipping.Tests.UnitTests
+namespace Courier.Shipping.Tests.UnitTests
 {
     [TestClass]
     public class SpeedyShippingCalculatorTests
