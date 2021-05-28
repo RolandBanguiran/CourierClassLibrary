@@ -1,5 +1,5 @@
 # CourierClassLibrary
-A back-end technical test for First AML.
+A sample class library to demonstrate Decorator Pattern and Unit Testing.
 
 ## Assumptions
 - The library will be consumed by either .Net Framework or .Net Core application
